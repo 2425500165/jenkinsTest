@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: frontend-image
+    container_name: frontend-container
+    ports:
+      - "10248:80"
